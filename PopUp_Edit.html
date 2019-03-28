@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>PopUp_edit</title>
+      <link href="css/style.css" rel="stylesheet" >
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="main_pop">
+         <div class="main_pop_cont_2">
+            <div class="pop_title edit">Редактирование делянки</div>
+            <div class="tabbable" id="tabs-440015">
+               <ul class="nav nav-tabs">
+                  <li class="nav-item edit">
+                     <a class="nav-link active show" href="#tab1" data-toggle="tab">Контур</a>
+                  </li>
+                  <li class="nav-item edit">
+                     <a class="nav-link" href="#tab2" data-toggle="tab">Информация</a>
+                  </li>
+               </ul>
+               <div class="tab-content">
+                  <div class="tab-pane active" id="tab1">
+                     <div class="scrollbar scrolly" id="style-4">
+                        <div class="pop_ro_title_radio">
+                           <input type="radio" class="custom-control-input" id="checked" name="defaultExampleRadios">
+                           <div class="pop_ro_title_left"><label class="custom-control-label" for="defaultUnchecked">Квартал</label></div>
+                        </div>
+                        <div class="pop_ro pop_ro_radio_input">
+                           <input class="inp_pop">
+                        </div>
+                        <div class="pop_ro_title_radio">
+                           <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                           <div class="pop_ro_title_left"><label class="custom-control-label" for="defaultUnchecked">Координаты привязочной точки</label></div>
+                        </div>
+                        <div class="pop_ro pop_ro_radio_input">
+                           <input class="inp_pop_mini" placeholder="lat">
+                           <input class="inp_pop_mini" placeholder="long">
+                        </div>
+                        <div class="pop_ro_title">
+                           <div class="pop_ro_title_left">Привязочный ход</div>
+                        </div>
+                        <div class="pop_ro">
+                           <div class="pop_ro_title_left mini">0-1</div>
+                           <input class="inp_pop_mini_m">
+                           -
+                           <input class="inp_pop_mini_m">
+                           <div class="pop_ro_right_dotted">
+                              <img src="img/add_thin_ic.svg" class="add_thin_ic">
+                              <img src="img/remove_thin_ic.svg" class="dotted_ic">
+                           </div>
+                        </div>
+                        <div class="pop_ro_title">
+                           <div class="pop_ro_title_left">Контур делянки</div>
+                        </div>
+                        <div class="pop_ro">
+                           <div class="pop_ro_title_left mini">0-1</div>
+                           <input class="inp_pop_mini_m">
+                           -
+                           <input class="inp_pop_mini_m">
+                           <div class="pop_ro_right_dotted">
+                              <img src="img/add_thin_ic.svg" class="add_thin_ic">
+                              <img src="img/remove_thin_ic.svg" class="dotted_ic">
+                           </div>
+                        </div>
+                        <div class="pop_ro">
+                           <div class="pop_ro_title_left mini">1-2</div>
+                           <input class="inp_pop_mini_m">
+                           -
+                           <input class="inp_pop_mini_m">
+                           <div class="pop_ro_right_dotted">
+                              <img src="img/add_thin_ic.svg" class="add_thin_ic">
+                              <img src="img/remove_thin_ic.svg" class="dotted_ic">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane" id="tab2">
+                     <div class="scrollbar scrolly" id="style-4">
+                        <div class="pop_ro_title">
+                           <div class="pop_ro_title_left">Участковое лестничество</div>
+                        </div>
+                        <div class="pop_ro">
+                           <input class="inp_pop">
+                        </div>
+                        <div class="pop_ro_title">
+                           <div class="pop_ro_title_left">Выдел(ы)</div>
+                        </div>
+                        <div class="pop_ro">
+                           <input class="inp_pop">
+                        </div>
+                        <div class="pop_ro_title">
+                           <div class="pop_ro_title_left">Делянка</div>
+                        </div>
+                        <div class="pop_ro">
+                           <input class="inp_pop">
+                        </div>
+                        <div class="pop_ro_title">
+                           <div class="pop_ro_title_left">Площадь</div>
+                        </div>
+                        <div class="pop_ro">
+                           <input class="inp_pop">
+                        </div>
+                        <div class="pop_ro_title">
+                           <div class="pop_ro_title_left">Форма рубки</div>
+                        </div>
+                        <div class="pop_ro">
+                           <input class="inp_pop">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="pop_bottom">
+                  <div class="pop_bottom_left">Отмена</div>
+                  <div class="pop_bottom_right">Создать</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <script></script>
+   </body>
+</html>
