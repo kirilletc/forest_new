@@ -761,3 +761,13 @@ ul.nav.nav-tabs li:last-child.nav-item.edit a.nav-link:before {
 li.nav-item.edit {
 	font-size: 14px;
 }
+
+a.nav-link.mi {
+    font-size: 11px;
+    line-height: 23px;
+}
+
+span.font_normal {
+    font-weight: 400;
+    color: #333;
+}
